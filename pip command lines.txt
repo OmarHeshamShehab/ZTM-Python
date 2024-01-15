@@ -1,14 +1,11 @@
-python -m venv env
-
 pip freeze > requirements.txt
 pip uninstall -r requirements.txt -y
 pip install -r requirements.txt 
 
 https://imageai.readthedocs.io/en/latest/
-https://github.com/OlafenwaMoses/ImageAI/
 
 
-
+python -m venv env
 
 $env:FLASK_APP = "server"
 flask run --debug
@@ -33,6 +30,11 @@ powershell
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
------------------
+-----------------------------------------------------------
+ 
+conda command to create env & activate
 
+conda create -p "E:\Courses\TensorFlow-Deep-Learning-fundamentals\env" python=3.10
+conda activate E:\Courses\TensorFlow-Deep-Learning-fundamentals\env
 
+conda list > packages.txt
