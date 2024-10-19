@@ -22,7 +22,6 @@
    17. [Section 24 HTML Forms](#section-24-html-forms)
 3. [Getting Started](#getting-started)
 4. [Dependencies](#dependencies)
-5. [Usage](#usage)
 
 ## Project Overview
 This repository contains various Python projects and exercises covered in the ZTM Python course. It includes practical examples on a wide range of topics such as object-oriented programming, functional programming, web scraping, automation, machine learning, and more.
@@ -127,7 +126,3 @@ Working with HTML forms, handling user input, and integrating Python scripts to 
   ```bash
   conda install --file Conda_requirements.txt
   ```
-
-## Usage
-- Navigate through different sections and run the Python scripts or Jupyter notebooks to learn about each concept.
-- Each folder represents a specific topic or project covered in the ZTM Python course.
